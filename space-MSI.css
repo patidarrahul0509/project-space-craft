@@ -1,0 +1,816 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+body{
+    ::selection{
+        background-color: rgba(255, 183, 0, 0.23);
+    }
+}
+.main-container {
+    overflow: hidden;
+}
+
+.hed {
+    width: 100%;
+    height: 100%;
+    background-color: #12101B;
+}
+
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header-ops {
+    width: 90%;
+    margin: 0 auto;
+    background-color: transparent;
+    border: 1px outset white;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 1%;
+    /* left: 5%; */
+    z-index: 1;
+}
+
+.header-ops header {
+    width: 9%;
+    text-shadow: 2px 2px 2px white;
+    height: inherit;
+}
+
+.header-ops header .icon a img {
+    /* width: fit-content; */
+    height: 40px;
+}
+
+.header-ops nav {
+    width: 91%;
+    text-transform: uppercase;
+}
+
+.header-ops nav a {
+    color: white;
+    padding-left: 3%;
+    letter-spacing: 5px;
+    text-decoration: none;
+}
+
+.header-ops nav strong {
+    font-size: 20px;
+    font-weight: 900;
+    text-shadow: 1px 3px 3px lightgray;
+}
+
+/* header end  */
+
+.banner {
+    width: 100%;
+    height: 130vh;
+    border-bottom: 10px solid orange;
+    display: flex;
+    align-items: center;
+    padding-top: 14%;
+    flex-direction: column;
+    background: url(/Images/Banner_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner h4 {
+    width: fit-content;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.banner h2 {
+    width: fit-content;
+    color: white;
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 0px lightgray;
+}
+
+/* banner end  */
+
+.sea {
+    width: 100%;
+    margin-top: 5%;
+    padding: 2% 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border: 1px solid gold;
+}
+
+.sea .sea1 {
+    border-left: 1px solid gold;
+    padding-right: 3%;
+    padding-left: 1%;
+}
+
+.sea .se2 {
+    border: none;
+}
+
+/* sea end  */
+.feature {
+    width: fit-content;
+    background: url(/abstract-polygonal-backgrounds-black-tone_99087-44.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 8% auto 0%;
+    padding: 1% 2%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+}
+
+.feature .feature-1 span h4 {
+    color: gold;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.feature .feature-1 h3 {
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.fe1{
+    margin-top: 8%;
+}
+
+/* feature end  */
+.main {
+    width: 100%;
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+
+.main .moon-chand {
+    width: 24%;
+    height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/Images/package-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.main .moon-new {
+    color: white;
+    font-size: 22px;
+    transform: rotate(-30deg);
+    background-color: goldenrod;
+    padding: 2% 4%;
+    position: absolute;
+    top: -4%;
+    left: -7%;
+}
+
+.main .moon-chand .moon-img {
+    width: 80%;
+}
+
+.main .moon-chand .moon-img img {
+    width: 100%;
+    margin-top: -26%;
+    margin-left: 13%;
+}
+
+.main .moon-content {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.main .moon-dol {
+    position: absolute;
+    bottom: 4%;
+    left: 30%;
+    right: 30%;
+    text-transform: uppercase;
+}
+
+.main .moon-dol a {
+    color: white;
+    text-decoration: none;
+    background-color: goldenrod;
+    padding: 12px 9px;
+}
+
+.main .mar {
+    width: 24%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/Images/package-2_mars-vehicle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.main .mar-content {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.main .mar-dol {
+    position: absolute;
+    bottom: 4%;
+    left: 30%;
+    text-transform: uppercase;
+}
+
+.main .mar-dol a {
+    width: fit-content;
+    padding: 12px 9px;
+    color: white;
+    text-decoration: none;
+    background-color: goldenrod;
+}
+
+.main .mar-dol a:active{
+    background-color: rebeccapurple;
+}
+.main .moon-dol a:active{
+    background-color: rebeccapurple;
+}
+.main .neptune-dol a:active{
+    background-color: rebeccapurple;
+}
+
+.main .mar .mar-img {
+    width: 80%;
+    margin-top: -25%;
+    margin-left: 10%;
+}
+
+.main .mar .mar-img img {
+    width: 100%;
+}
+
+.main .neptune {
+    width: 30%;
+}
+
+.main .neptune .neptune-img {
+    width: 80%;
+    margin-top: -20%;
+    margin-bottom: 5%;
+    margin-left: 9%;
+}
+
+.main .neptune .neptune-img img {
+    width: 100%;
+}
+
+.main .neptune {
+    width: 24%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/Images/neptune-ride.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.main .neptune-content {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.main .neptune-dol {
+    position: absolute;
+    bottom: 4%;
+    left: 30%;
+    text-transform: uppercase;
+}
+
+.main .neptune-dol a {
+    width: fit-content;
+    padding: 12px 9px;
+    color: white;
+    text-decoration: none;
+    background-color: goldenrod;
+}
+
+/* moon end  */
+
+.bio {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 9%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bio .bio-suit {
+    width: 48%;
+    /* align-items: center; */
+    padding: 0% 0% 2% 0%;
+}
+
+.bio .bio-suit p{
+    margin-top: 5%;
+    text-align: left;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.bio .bio-suit .bio-lux {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 4%;
+    border-bottom: 1px solid goldenrod;
+}
+
+.bio .bio-enh span p {
+    color: goldenrod;
+    letter-spacing: 5px;
+    padding-bottom: 5px;
+}
+
+.bio .bio-enh h2 {
+    color: white;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 1px white;
+}
+
+.bio .bio-upgrade span p {
+    color: goldenrod;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 1px goldenrod;
+}
+
+.bio .bio-dis{
+    /* width: fit-content; */
+    display: flex;
+    /* margin: 0 auto; */
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.bio .bio-dis .bio-per{
+    border: 1px solid goldenrod;
+    text-align: center;
+    padding: 5%;
+}
+
+.bio .bio-dis .bio-per h2{
+    color: white;
+}
+
+.bio .bio-dis .bio-hud{
+    border: 1px solid goldenrod;
+    padding: 3% 5%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bio .bio-dis .bio-hud h2{
+    color: white;
+    /* font-size: 25px; */
+}
+
+.bio .bio-dis .bio-hrs{
+    border: 1px solid goldenrod;
+    padding: 3% 5%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.bio .bio-dis .bio-hrs h2{
+    color: white;
+}
+
+.bio .learn{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 10.8%;
+}
+
+.bio .learn h2{
+    height: 51px;
+    border: 1px solid goldenrod;
+    padding: 1.9% 13.6%;
+    padding-top: 2%;
+    color: white;
+}
+
+.bio .learn .icon{
+    height: 51px;
+    border: 1px solid goldenrod;
+    padding: 2.9% 2%;
+    color: white;
+}
+
+.bio .bio-rt{
+    width: 49%;
+    height: inherit;
+}
+
+.bio .bio-rt img{
+    width: 100%;
+}
+
+/* bio end  */
+
+.discover{
+    width: 90%;
+    margin: 5% auto 0%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid goldenrod;
+    padding-bottom: 1%;
+    text-transform: uppercase;
+}
+
+.discover .discover-planet a{
+    color: white;
+    text-decoration: none;
+}
+
+/* .discover end  */
+
+.mount{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.mount .mount-lt{
+    width: 47%;
+    position: relative;
+}
+
+.mount .mount-rt{
+    width: 47%;
+    margin-top: 5%;
+}
+
+.mount .mount-lt .mount-img img{
+    width: 100%;
+    height: inherit;
+}
+
+.mount .mount-lt .mount-cir{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: -70%;
+    bottom: 1%;
+}
+
+.mount .mount-lt .mount-cir .bx{
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+    background: url(/Images/mount_olympus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.mount .mount-lt .mount-cir .bx1{
+    position: absolute;
+            border: 1px dotted white;
+            top: -5%;
+            left: -2.2%;
+            width: 270px;
+            height: 270px;
+            border-radius: 100%;
+            background-color: rgba(0,0,0,0);
+}
+
+.mount .mount-cir .co{
+    margin-left: 4%;
+}
+
+.mount .mount-cir .co span{
+    color: goldenrod;
+}
+
+.mount .mount-rt{
+    width: 40%;
+    margin: 6% auto 0%;
+}
+
+.mount .mount-rt .mount-suit .mount-learn{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    border-bottom: 1px solid goldenrod;
+}
+
+.mount .mount-rt .mount-suit .mount-learn .mount-head h2{
+    color: white;
+    letter-spacing: 5px;
+}
+.mount .mount-rt .mount-suit .mount-learn .mount-trial span p{
+    color: goldenrod;
+    letter-spacing: 5px;
+}
+
+.mount .mount-rt .mount-para{
+    width: 95%;
+    margin: 0 auto;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.mount .mount-rt .mount-table{
+    color: white;
+    font-size: 25px;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.table{
+    width: fit-content;
+    color: white;
+    border-color: goldenrod;
+}
+
+.percentage{
+    width: 30%;
+    text-align: center;
+    padding: 40px 0px;
+    border: 1px solid goldenrod;
+}
+.hud{
+    text-align: center;
+    padding: 40px 50px;
+    border: 1px solid goldenrod;
+}
+.hr{
+    text-align: center;
+    padding: 40px 50px;
+    border: 1px solid goldenrod;
+}
+#bla{
+    /* border: none; */
+    border-bottom: none;
+}
+
+.learn{
+    width: 100%;
+    text-transform: uppercase;
+    border: 1px solid goldenrod;
+    text-align: center;
+    padding: 2%;
+}
+
+.learn a{
+    text-decoration: none;
+    color: white;
+}
+
+/* .icon{
+    border:none;
+    text-align: center;
+    color: white;
+} */
+
+.icon2{
+    border: 1px solid goldenrod;
+    text-align: center;
+}
+
+.mark{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10% auto 0%;
+    color: white;
+    display: grid;
+    grid-template-columns: 29% 29% 29%;
+    gap: 5px;
+}
+
+
+.mark .mark1 img{
+    width: 100%;
+}
+.mark .mark2 img{
+    width: 100%;
+}
+
+.mark .mount-parent1{
+    width: 95%;
+    margin: 2% auto;
+    border-bottom: 1px solid goldenrod;
+    padding-bottom: 5px;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mark .mount-parent1 .mount-head1 span{
+    color: goldenrod;
+}
+.mark .mount-parent1 .mount-trial1{
+    border: 1px solid goldenrod;
+    padding: 2%;
+}
+
+.bio-suit .box{
+    width: 100%;
+    margin: 10% auto;
+}
+
+.bio-suit .box .up{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.bio-suit .box .up .bx3{
+    width: 33.33%;
+    height: 60px;
+    padding: 10% 0%;
+    text-align: center;
+    border: 1px solid gold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio-suit .box .down{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.box .down .bt{
+    width: fit-content;
+    border: 1px solid gold;
+    text-align: center;
+}
+.box .down .bt1{
+    /* width: fit-content; */
+    /* border: 1px solid gold; */
+    padding: 10px;
+    width: 57%;
+    color: white;
+}
+.box .down .bt2{
+    /* width: fit-content; */
+    /* border: 1px solid gold; */
+    padding: 15px;
+    color: white;
+    width: 10%;
+}
+/* box end  */
+
+.plan{
+    width: 80%;
+    margin: 5% auto 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan .plan-1{
+    width: 20%;
+    height: inherit;
+    text-align: center;
+    color: white;
+}
+
+.plan .plan-1 img{
+    width: 30%;
+}
+
+.plan .plan-1 h2{
+    text-transform: uppercase;
+    padding-bottom: 2%;
+}
+
+/* plan end  */
+
+.private{
+    width: 80%;
+    margin: 9% auto 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.private .private-lt{
+    width: 44%;
+}
+.private .private-rt{
+    width: 44%;
+}
+
+.private .private-rt h2 span{
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px white;
+}
+
+.private .private-rt input{
+    border: 5px solid goldenrod;
+    border-radius: 5px;
+    padding-left: 0px !important;
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 5px 0px;
+    background-color: transparent;
+}
+
+.private .private-rt input{
+    color: goldenrod;
+    font-size: 15px;
+}
+
+.private .private-rt input::placeholder{
+    color: goldenrod;
+    padding: 5px;
+    font-weight: 100;
+}
+
+.sub{
+    width: 26% !important;
+    padding: 5px 0px !important;
+}
+
+/* private end  */
+
+footer{
+    width: 80%;
+    height: 49vh;
+    margin: 8% auto 0%;
+    background: url(/Images/dark_moon_nobackground.png);
+    background-size: cover;
+    /* background-position: center top; */
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .footer-up{
+    margin-top: 8%;
+    margin-bottom: 6%;
+}
+
+footer .footer-up a{
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 17px;
+    text-shadow: 1px 3px 3px lightgray;
+}
+
+footer .footer-up a strong{
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 2%;
+}
+
+footer .footer-down a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 19px;
+    letter-spacing: 5px;
+}
+/* footer end  */
